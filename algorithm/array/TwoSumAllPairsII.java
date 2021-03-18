@@ -1,11 +1,11 @@
 package algorithm.array;
 
-import java.util.*;
-
 /*
 Find all pairs of elements in a given array that sum to the pair the given target number.
 Return all the distinct pairs of values.
  */
+
+import java.util.*;
 
 public class TwoSumAllPairsII {
     // Method 1: sort the array first and use two pointers.
