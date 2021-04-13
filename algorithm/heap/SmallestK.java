@@ -84,7 +84,8 @@ public class SmallestK {
 
 
     // Method 3: min-Heap
-    // Time = O(n + k log n)
+    // Time = O(n + k log n).
+    // In this coding method, Time = O(n log n + k log n).
     public int[] kSmallest3(int[] array, int k) {
         if (array == null || array.length == 0 || k == 0) {
             return new int[0];
